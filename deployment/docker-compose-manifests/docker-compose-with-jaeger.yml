@@ -267,7 +267,7 @@ services:
           - my-network
 
   ts-inside-payment-service:
-        image: codewisdom/ts-inside-payment-service-with-jaeger:v1
+        build: ../../ts-inside-payment-service
         restart: always
         ports:
           - 18673:18673
@@ -275,9 +275,15 @@ services:
           - my-network
 
   ts-inside-payment-mongo:
-        image: mongo
+        build: ../../ts-inside-payment-mongo
+        command: [--auth]
+        environment:
+          - MONGO_INITDB_ROOT_USERNAME=root
+          - MONGO_INITDB_ROOT_PASSWORD=hunter2
+          - MONGO_INITDB_DATABASE=ts
         networks:
           - my-network
+
 
   ts-execute-service:
         image: codewisdom/ts-execute-service-with-jaeger:v1

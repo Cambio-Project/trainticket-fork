@@ -18,3 +18,7 @@
 1-services/rest-service-end/target/
 
 .DS_Store
+auth-config-current.js
+/build-and-launch-tt.sh
+/start-tt.sh
+/stop-tt.sh
