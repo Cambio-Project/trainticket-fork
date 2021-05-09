@@ -719,10 +719,6 @@ spec:
       labels:
         app: ts-order-other-service
     spec:
-      dnsPolicy: "None"
-      dnsConfig:
-        nameservers:
-          - 192.168.1.213
       containers:
       - name: ts-order-other-service
         image: codewisdom/ts-order-other-service:0.0.4
@@ -758,10 +754,6 @@ spec:
       labels:
         app: ts-order-service
     spec:
-      dnsPolicy: "None"
-      dnsConfig:
-        nameservers:
-          - 192.168.1.213
       containers:
       - name: ts-order-service
         image: codewisdom/ts-order-service:0.0.4
