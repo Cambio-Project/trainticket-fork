@@ -1,3 +1,11 @@
+# A Fork of TrainTicket
+
+This repository contains a forked version of the TrainTicket microservice benchmark system. 
+TrainTicket was originally developed at the University of Fudan, and is [available on GitHub](https://github.com/FudanSELab/train-ticket) as well. 
+This fork contains various faulty instances of TrainTicket that were developed as part of a student research project. 
+The faulty instances are contained in several branches of the repository.
+
+Please find the original README of TrainTicket below:
 
 # Train Ticket：A Benchmark Microservice System
 
