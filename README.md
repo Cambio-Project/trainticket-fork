@@ -1,4 +1,5 @@
 # A Fork of TrainTicket
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4775891.svg)](https://doi.org/10.5281/zenodo.4775891)
 
 This repository contains a forked version of the TrainTicket microservice benchmark system. 
 TrainTicket was originally developed at the University of Fudan, and is [available on GitHub](https://github.com/FudanSELab/train-ticket) as well. 
